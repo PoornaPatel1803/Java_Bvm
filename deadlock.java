@@ -1,5 +1,5 @@
 class A {
-    synchronized void foo(B b) {
+    synchronized void fOO(B b) {
         String name = Thread.currentThread().getName();
         System.out.println(name + " entered A.foo");
         try {
